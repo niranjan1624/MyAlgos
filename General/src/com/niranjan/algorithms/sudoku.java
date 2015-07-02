@@ -73,6 +73,7 @@ public class sudoku {
 				next(row, col, s_box);
 			} else {
 				for(int val = 1;val<=9;val++){
+					
 					if(valid(row,col,val,s_box)){ 
 						s_box[row][col] = val;
 						
